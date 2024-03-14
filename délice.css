@@ -1,0 +1,132 @@
+.vito{
+  display: flex;
+  justify-content: space-around;
+}
+nav a, a:link{
+  padding: 30px;
+  text-decoration: none;
+  
+}
+ 
+
+nav a:hover{
+  background-color: black;
+ color: brown;
+
+}
+.fixe{
+  background-color: black;
+ color: brown;
+
+}
+.fond{
+  background-image: url('https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_1280.jpg');
+  height: 50em;
+  padding: 5opx;
+  }
+.bien{
+  text-align: right;
+  color: red ;
+  padding: 80px;
+  
+}
+header{
+  background-color: beige;
+}
+.george{
+  padding: 50px;
+}
+.G{
+  padding-left: 70px;
+}
+.mb-3{
+  padding: 3opx;
+}
+.niger{
+  text-align: center;
+  padding: 15px;
+}
+.icone{
+ text-align: center;
+ padding-top: 40px;
+}
+
+.fred{
+  text-align: center;
+
+}
+.wraper{
+  height: 120px;
+  min-width: 380px;
+  background-color: gainsboro;
+  border-radius: 12px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+   text-align: center;
+   box-shadow: 0 5px 10px rgba(0, 0, 0,0,2);
+   
+}
+.wraper span{
+  /* width: 100%; */
+  font-size: 55px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+ .wraper span.num{
+    font-size: 50px;
+    border-right: 2px solid rgba(0, 0, 0,0,2);
+    border-left:2px solid rgba(0, 0, 0,0,2) ;
+    pointer-events: none;
+  }
+  button:active{
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .2),
+                inset -2px -5px 15px rgba(0,0,0, .5) ;
+  }
+  .item {
+    margin-bottom: 10px;
+}
+.heart {
+    color: grey;
+    cursor: pointer;
+}
+.heart:hover {
+    color: red;
+}
+.item {
+  margin-bottom: 10px;
+}
+.heart {
+  color: grey;
+  cursor: pointer;
+}
+.heart:hover {
+  color: red;
+}
+input{
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 15px 0;
+  width: 100px;
+  text-align: center;
+  font-size: 1.5em;
+  color: red;
+  margin: 0 10px;
+  background: transparent;
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .2),
+                inset -2px -5px 15px rgba(0,0,0, .5) ;
+}
+body{
+  background-color: beige;
+}
+.total-price{
+  text-align: center;
+  font-size: 30px;
+}
+.total-price .fa-rupee{
+  display: inline-block;
+  font-size: 90%;
+  margin-right: 5px;
+}
